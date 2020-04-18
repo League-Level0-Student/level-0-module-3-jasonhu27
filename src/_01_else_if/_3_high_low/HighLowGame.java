@@ -10,16 +10,24 @@ public class HighLowGame {
 	public static void main(String[] args) {
 		// 3. Change this line to give you a random number between 1 - 100. 
 		String answer = JOptionPane.showInputDialog("Guess a number 1-100");
-		int random = new Random().nextInt(101);
-		System.out.println(random);
-		int number = Integer.parseInt(answer);
-		if (number)
-		 JOptionPane.showMessageDialog(null, "win");
 		
-		if(number > actual)
+		int random = new Random().nextInt(101);
+	
+		System.out.println(random);
+	
+		int number = Integer.parseInt(answer);
+		
+		if (random == number)
+		
+			JOptionPane.showMessageDialog(null, "win");
+			System.exit(0);
+		
+		if(number > number)
+			
 			JOptionPane.showInputDialog("Guess too High, try again");
 		
-		if(number < actual)
+		if(number < number)
+			
 			JOptionPane.showInputDialog("GUess too low, try again");
 		// 2. Print out the random variable above
 		
