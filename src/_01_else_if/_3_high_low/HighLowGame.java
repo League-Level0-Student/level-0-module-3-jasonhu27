@@ -21,14 +21,14 @@ public class HighLowGame {
 		
 			JOptionPane.showMessageDialog(null, "win");
 			System.exit(0);
-		
+			JOptionPane.showConfirmDialog(null, "You lose");
 		if(number > number)
 			
 			JOptionPane.showInputDialog("Guess too High, try again");
 		
 		if(number < number)
 			
-			JOptionPane.showInputDialog("GUess too low, try again");
+			JOptionPane.showInputDialog("Guess too low, try again");
 		// 2. Print out the random variable above
 		
 		// 11. Repeat steps 1 to 10 ten times
