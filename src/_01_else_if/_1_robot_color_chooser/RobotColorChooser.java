@@ -28,7 +28,7 @@ public class RobotColorChooser {
 			bob.setPenColor(Color.blue);
 		}
 		if (color.equalsIgnoreCase("green")) {
-			bob.setPenColor(Color.blue);
+			bob.setPenColor(Color.green);
 		}
 		if (color.equalsIgnoreCase("yellow")) {
 			bob.setPenColor(Color.yellow);
